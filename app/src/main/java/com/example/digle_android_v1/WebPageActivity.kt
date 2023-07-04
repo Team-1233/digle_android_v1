@@ -18,14 +18,14 @@ class WebPageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_web_page)
 
         val webView: WebView = binding.wv
 
         webView.settings.javaScriptEnabled = true
         webView.webViewClient = WebViewClient()
 
-        webView.loadUrl("http://example.com")
+        webView.loadUrl("http://192.168.0.30:3000")
 
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(
