@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:text="@string/scan_money_title"
         android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:fontFamily="@font/notosans_semibold"
         android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,10 +22,10 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="45dp"
         />
-    
+
     <EditText
         android:id="@+id/scan_money_donator"
-        android:layout_width="365dp"
+        android:layout_width="330dp"
         android:layout_height="50dp"
         android:hint="기부자명"
         android:fontFamily="@font/notosans_medium"
@@ -41,14 +43,14 @@
         android:text="후원 금액"
         android:textSize="16sp"
         android:fontFamily="@font/notosans_semibold"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="17dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scan_money_donator"/>
 
     <RadioGroup
         android:id="@+id/radio_btn"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,8 +100,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginLeft="-7dp"
-        android:layout_marginTop="-2dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="-6dp"
         app:layout_constraintLeft_toRightOf="@id/scan_money_price"
         app:layout_constraintTop_toTopOf="@id/radio_btn">
         <EditText
@@ -114,7 +116,7 @@
             android:textSize="18sp"
             android:text="원"/>
     </LinearLayout>
-    
+
     <Button
         android:id="@+id/btn_donation"
         android:layout_width="330dp"
@@ -128,6 +130,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:fontFamily="@font/notosans_medium"
+        android:textStyle="bold"
         android:text="토스로 후원하기"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
