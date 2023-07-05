@@ -19,6 +19,7 @@ class WebPageActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWebPageBinding
 
     private var a = false
+    private var b = false
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,16 +52,26 @@ class WebPageActivity : AppCompatActivity() {
         }
 
         binding.map.setOnClickListener {
-            if (a) {
+            a = if (a) {
                 binding.choose.visibility = View.INVISIBLE
                 binding.arrow.visibility = View.INVISIBLE
                 binding.map.setImageResource(R.drawable.map)
-                a = false
+                false
             } else {
                 binding.choose.visibility = View.VISIBLE
                 binding.arrow.visibility = View.VISIBLE
                 binding.map.setImageResource(R.drawable.worldwhole)
-                a = true
+                true
+            }
+        }
+
+        binding.weather.setOnClickListener {
+            b = if (b) {
+                binding.weather.setImageResource(R.drawable.weather)
+                false
+            } else {
+                binding.weather.setImageResource(R.drawable.frame_180)
+                true
             }
         }
     }
