@@ -61,6 +61,7 @@
             app:layout_constraintTop_toTopOf="@id/ll" />
 
         <ImageView
+            android:id="@+id/weather"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@drawable/weather"
