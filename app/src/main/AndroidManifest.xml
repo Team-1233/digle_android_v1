@@ -16,6 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".DisasterExplain"
+            android:exported="false" />
+        <activity
             android:name=".ScanMoney"
             android:exported="false" />
         <activity
