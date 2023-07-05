@@ -15,4 +15,16 @@
         <item name="cardCornerRadius">12dp</item>
         <item name="android:layout_marginTop">20dp</item>
     </style>
+
+    <style name="donation_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">-30dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
