@@ -3,4 +3,7 @@
     <string name="scan_money_title">여러분의 작은 위로\n큰 힘이 됩니다.</string>
     <string name="explain_content">2023년 1월 7일날 시작되어 현재까지 \n진압되지 않은 대규모 산불입니다.\n이 산불로 12만명의 이재민이 발생했으며 \n150억 이상의 민가 피해가 발생하였습니다.\n\n전국의 많은 소방 인력들이 산불 화제 진압을 위해 노력하고 있지만 낮은 습도와 강한 바람 때문에 쉽지 않은 상황입니다.\n\n여러분들의 따뜻한 작은 위로가 \n피해자들에게는 큰 힘이 됩니다.
     </string>
+    <string name="receipt">DiGle과 OO구청은 후원자님이 보내주신 소중한 후원금을 투명하게 사용할 것을 약속합니다.</string>
+    <string name="receipt_give">후원자 : ㅇㅇㅇ\n계좌 : 0001010100100</string>
+    <string name="receipt_take">받는이 : ㅇㅇ구청\n계좌 : 010100100100</string>
 </resources>
